@@ -1,3 +1,4 @@
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),jordan)
 LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -11,3 +12,4 @@ LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
 
+endif #TARLGET_BOOTLOADER_BOARD_NAME
