@@ -42,4 +42,11 @@ extern "C" void destroyAudioPolicyManager(AudioPolicyInterface *interface)
     delete interface;
 }
 
+// Argh... see http://review.cyanogenmod.com/#change,6842
+#ifdef OMAP_ENHANCEMENT
+status_t AudioPolicyManager::setFMRxActive(bool status) {
+    return NO_ERROR;
+}
+#endif
+
 }; // namespace android
