@@ -42,5 +42,12 @@ protected:
         virtual bool a2dpUsedForSonification() const { return true; }
 #endif
 
+#ifdef HAVE_FM_RADIO
+#ifdef OMAP_ENHANCEMENT
+	virtual status_t setFMRxActive(bool state);
+#endif
+#endif
+
 };
-};
+
+}; //namespace
