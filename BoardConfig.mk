@@ -27,9 +27,15 @@
 USE_CAMERA_STUB := false
 BOARD_USES_GENERIC_AUDIO := false
 
+BOARD_USES_BOOTMENU := true
+
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_PREINSTALL := true
 TARGET_BOOTLOADER_BOARD_NAME := jordan
+
+# Script used to wrap reboot command to bootmenu before reboot
+TARGET_RECOVERY_PRE_COMMAND := "/system/bootmenu/script/reboot_command.sh recovery"
+TARGET_RECOVERY_PRE_COMMAND_CLEAR_REASON := true
 
 # Override cyanogen squisher to customize our update zip package
 TARGET_CUSTOM_RELEASETOOL := ./device/motorola/jordan/releasetools/squisher
