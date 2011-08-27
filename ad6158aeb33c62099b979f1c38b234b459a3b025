@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3///aQ\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-27T16:17:02Z",
+      "side": 1,
+      "message": "This line is redundant. See external/wpa_supplicant_6/wpa_supplicant/Android.mk, lines 1124 to 1129.",
+      "revId": "ad6158aeb33c62099b979f1c38b234b459a3b025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///aM\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-27T16:17:02Z",
+      "side": 1,
+      "message": "This line is redundant as well.",
+      "revId": "ad6158aeb33c62099b979f1c38b234b459a3b025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///aI\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-27T16:17:02Z",
+      "side": 1,
+      "message": "Can you please remove that commented stuff?",
+      "revId": "ad6158aeb33c62099b979f1c38b234b459a3b025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///aU\u003d",
+        "filename": "system.prop",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-27T16:17:02Z",
+      "side": 1,
+      "message": "Why did you comment that?",
+      "revId": "ad6158aeb33c62099b979f1c38b234b459a3b025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///aY\u003d",
+        "filename": "system.prop",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-27T16:17:02Z",
+      "side": 1,
+      "message": "That comment is a bit misleading. The property is used by UsbService for listening to reconfigure intents instead of uevents, thus it\u0027s not related to \u0027selection settings\u0027. The old comment matched better.\n\nIn my repo I\u0027m using this comment:\n# Tell UsbService that we\u0027re using Usb.apk",
+      "revId": "ad6158aeb33c62099b979f1c38b234b459a3b025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
