@@ -53,6 +53,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3///ZU\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-27T19:57:29Z",
+      "side": 1,
+      "message": "i prefer to keep that to remember the required properties",
+      "parentUuid": "AAAAH3///aI\u003d",
+      "revId": "ad6158aeb33c62099b979f1c38b234b459a3b025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3///aU\u003d",
         "filename": "system.prop",
         "patchSetId": 4
@@ -64,6 +82,24 @@
       "writtenOn": "2011-08-27T16:17:02Z",
       "side": 1,
       "message": "Why did you comment that?",
+      "revId": "ad6158aeb33c62099b979f1c38b234b459a3b025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///ZY\u003d",
+        "filename": "system.prop",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-27T19:57:29Z",
+      "side": 1,
+      "message": "something is wrong and make phone to reset to 2G on each update.... was working when i ve commented that... but sometimes that happens again now...",
+      "parentUuid": "AAAAH3///aU\u003d",
       "revId": "ad6158aeb33c62099b979f1c38b234b459a3b025",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
