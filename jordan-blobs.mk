@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 	device/motorola/jordan/prebuilt/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
 	device/motorola/jordan/prebuilt/etc/init.d/04mmcfix:system/etc/init.d/04mmcfix \
 	device/motorola/jordan/prebuilt/etc/init.d/05mountsd:system/etc/init.d/05mountsd \
-	device/motorola/jordan/prebuilt/etc/init.d/10dnsconf:system/etc/init.d/10dnsconf \
 	device/motorola/jordan/prebuilt/etc/init.d/90multitouch:system/etc/init.d/90multitouch \
 	device/motorola/jordan/prebuilt/etc/profile:system/etc/profile \
 	device/motorola/jordan/prebuilt/etc/sysctl.conf:system/etc/sysctl.conf \
@@ -30,8 +29,6 @@ PRODUCT_COPY_FILES += \
 	device/motorola/jordan/prebuilt/etc/wifi/dnsmasq.conf:system/etc/wifi/dnsmasq.conf \
 	device/motorola/jordan/prebuilt/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
 	device/motorola/jordan/prebuilt/etc/wifi/tiwlan_ap.ini:system/etc/wifi/tiwlan_ap.ini \
-	device/motorola/jordan/prebuilt/etc/wifi/tiwlan_ap_rfmd.ini:system/etc/wifi/tiwlan_ap_rfmd.ini \
-	device/motorola/jordan/prebuilt/etc/wifi/tiwlan_rfmd.ini:system/etc/wifi/tiwlan_rfmd.ini \
 	device/motorola/jordan/prebuilt/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	device/motorola/jordan/prebuilt/etc/gpsconfig.xml:system/etc/gpsconfig.xml \
 	device/motorola/jordan/prebuilt/etc/location.cfg:system/etc/location.cfg \
