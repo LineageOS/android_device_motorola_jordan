@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAJ3///vI\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-10-11T12:34:08Z",
+      "side": 1,
+      "message": "its a recent commit. that doesnt create problems here.. but could resolve our wifi locks... i m tired doing double nighlies, and my server too",
+      "parentUuid": "AAAAJ3///vs\u003d",
+      "revId": "48f51d05c68eb16d338a1ab14ff80b7d43ae6458",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAJ3///vo\u003d",
         "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
         "patchSetId": 3
