@@ -33,6 +33,24 @@
       "revId": "48f51d05c68eb16d338a1ab14ff80b7d43ae6458",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAJ3///vQ\u003d",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-10-11T12:24:32Z",
+      "side": 1,
+      "message": "from me",
+      "parentUuid": "AAAAJ3///vo\u003d",
+      "revId": "48f51d05c68eb16d338a1ab14ff80b7d43ae6458",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
