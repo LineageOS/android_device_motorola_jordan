@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAJ3///u8\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-10-11T12:46:02Z",
+      "side": 1,
+      "message": "Ok, I checked the code. Given that the WPA supplicant driver in hardware/ti/wlan/wl1271/wpa_supplicant_lib doesn\u0027t expose a combo_scan function, this change should have no influence at all.",
+      "parentUuid": "AAAAJ3///vI\u003d",
+      "revId": "48f51d05c68eb16d338a1ab14ff80b7d43ae6458",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAJ3///vo\u003d",
         "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
         "patchSetId": 3
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "from me",
       "parentUuid": "AAAAJ3///vo\u003d",
+      "revId": "48f51d05c68eb16d338a1ab14ff80b7d43ae6458",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAJ3///u0\u003d",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-10-11T12:46:02Z",
+      "side": 1,
+      "message": "*sigh*\nThat was somewhat clear to me. My question was more along the lines of \u0027Why exactly 2 seconds? Why not e.g. 1 second? How did you determine the value?\u0027",
+      "parentUuid": "AAAAJ3///vQ\u003d",
       "revId": "48f51d05c68eb16d338a1ab14ff80b7d43ae6458",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
