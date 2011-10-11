@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAJ3///vs\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-10-11T12:14:56Z",
+      "side": 1,
+      "message": "What\u0027s that?",
+      "revId": "48f51d05c68eb16d338a1ab14ff80b7d43ae6458",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAJ3///vo\u003d",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-10-11T12:14:56Z",
+      "side": 1,
+      "message": "Where does that value come from?",
+      "revId": "48f51d05c68eb16d338a1ab14ff80b7d43ae6458",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
