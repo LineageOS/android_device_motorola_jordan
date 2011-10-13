@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAJ3///a4\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-10-13T17:16:15Z",
+      "side": 1,
+      "message": "$(ANDROID_BUILD_TOP)/device/motorola/jordan/bluedroid.c",
+      "revId": "33bee88a89d1c4ad8341223565ea3aac732cc431",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
