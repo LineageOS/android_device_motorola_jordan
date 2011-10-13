@@ -16,6 +16,24 @@
       "revId": "33bee88a89d1c4ad8341223565ea3aac732cc431",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAJ3///as\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-10-13T17:20:13Z",
+      "side": 1,
+      "message": "Will give this a try and submit a new patch.",
+      "parentUuid": "AAAAJ3///a4\u003d",
+      "revId": "33bee88a89d1c4ad8341223565ea3aac732cc431",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
