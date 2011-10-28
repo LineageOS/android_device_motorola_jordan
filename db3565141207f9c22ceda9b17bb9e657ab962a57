@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAKn///dg\u003d",
+        "filename": "DefyParts/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-10-28T23:50:33Z",
+      "side": 1,
+      "message": "oh, i forgot this one :/",
+      "revId": "db3565141207f9c22ceda9b17bb9e657ab962a57",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
