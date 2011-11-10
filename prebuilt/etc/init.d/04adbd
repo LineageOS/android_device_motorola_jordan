@@ -2,9 +2,21 @@
 #
 # load adbd during boot if property is set
 
-LOAD_ADBD=`getprop persist.service.adb.enable`
+if [ -f /system/firstboot ]; then
 
-if [ "$LOAD_ADBD" -eq "1" ]; then
-    echo charge_adb > /dev/usb_device_mode
+    LOAD_ADBD=`getprop persist.service.adb.enable`
+    USB_LINK=`cat /sys/class/power_supply/usb/online`
+
+    if [ "$LOAD_ADBD $USB_LINK" = "1 1" ]; then
+
+        echo charge_adb > /dev/usb_device_mode
+
+        # set initial state for usb.apk
+        echo usb_mode_charge_adb > /tmp/usbd_current_state
+        chmod 666 /tmp/usbd_current_state
+
+    fi
+
+    rm -f /system/firstboot
 fi
 
