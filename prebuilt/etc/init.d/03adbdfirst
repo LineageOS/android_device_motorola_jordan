@@ -1,0 +1,17 @@
+#!/system/bin/sh
+#
+# load adbd during first boot if property is set
+
+FIRSTBOOT=`getprop persist.service.adb.firstboot`
+LOAD_ADBD=`getprop persist.service.adb.enable`
+
+if [ "$FIRSTBOOT" -eq "1" ]; then
+
+    if [ "$LOAD_ADBD" -eq "1" ]; then
+
+       setprop persist.service.adb.firstboot 0
+       echo charge_adb > /dev/usb_device_mode
+
+    fi
+fi
+
