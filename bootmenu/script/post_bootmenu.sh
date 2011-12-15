@@ -3,8 +3,7 @@
 ######## BootMenu Script
 ######## Execute Post BootMenu
 
-
-export PATH=/sbin:/system/xbin:/system/bin
+export PATH=/system/xbin:/system/bin:/sbin
 
 ######## Main Script
 
@@ -20,8 +19,10 @@ mount -o remount,rw rootfs /
 mount -o remount,rw /dev/block/mmcblk1p21 /system
 ##################################################
 
-chmod 755 /system/bootmenu/init.d/*
-run-parts /system/bootmenu/init.d/
+if [ -d /system/bootmenu/init.d ]; then
+    chmod 755 /system/bootmenu/init.d/*
+    run-parts /system/bootmenu/init.d/
+fi
 
 # normal cleanup here (need fix in recovery first)
 # ...
@@ -50,5 +51,7 @@ fi
 mount -o remount,ro rootfs /
 mount -o remount,ro /dev/block/mmcblk1p21 /system
 ##################################################
+
+# /system/bootmenu/script/media_fixup.sh &
 
 exit 0
