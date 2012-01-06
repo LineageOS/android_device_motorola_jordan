@@ -117,6 +117,9 @@ TARGET_CUSTOM_RELEASETOOL := ./device/motorola/jordan/releasetools/squisher
 # Jordan need 2nd-init binary from motorola common
 TARGET_NEEDS_MOTOROLA_HIJACK := true
 
+# Jordan requires mot_boot_mode
+TARGET_NEEDS_MOTOROLA_BOOT_MODE := true
+
 # In nighly builds only
 ifndef CYANOGEN_RELEASE
 
