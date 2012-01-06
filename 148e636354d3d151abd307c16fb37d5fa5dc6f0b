@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAO3///Xg\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-06T21:00:32Z",
+      "side": 1,
+      "message": "See my comments in http://review.cyanogenmod.com/#change,11507 about that line. Hijack is different, because the hijack define controls more stuff in hijack\u0027s Android.mk.",
+      "revId": "148e636354d3d151abd307c16fb37d5fa5dc6f0b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
