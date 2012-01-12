@@ -17,7 +17,6 @@ cp -r -f /system/bootmenu/2nd-boot/* /
 
 ADBD_RUNNING=`ps | grep adbd | grep -v grep`
 if [ -z "$ADB_RUNNING" ]; then
-    rm -f /sbin/adbd.root
     rm -f /tmp/usbd_current_state
     #delete if is a symlink
     [ -L "/tmp" ] && rm -f /tmp
@@ -52,6 +51,8 @@ mount -o remount,rw,relatime,mode=775,size=128k /dev
 
 ######## Cleanup
 
+rm -f /sbin/adbd.root
+
 rm /sbin/lsof
 
 ## busybox cleanup..
@@ -60,7 +61,6 @@ for cmd in $(/sbin/busybox --list); do
 done
 
 rm -f /sbin/busybox
-
 
 ## adbd shell
 ln -s /system/xbin/bash /sbin/sh
