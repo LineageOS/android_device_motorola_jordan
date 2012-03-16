@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARX///38\u003d",
+        "filename": "profiles/2nd-init/init.mapphone_umts.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-03-16T00:56:55Z",
+      "side": 0,
+      "message": "I think we should keep those chowns. Aren\u0027t the LED files root:root by default? If so, this change will break the notification LED. But even if it isn\u0027t the case, I would keep them for consistency with the other LEDs.",
+      "revId": "6a55f91765c690c2d76aeb621b87a4d67014a11e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
