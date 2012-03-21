@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARX//+/M\u003d",
+        "filename": "bluedroid.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 397,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-03-21T14:24:10Z",
+      "side": 1,
+      "message": "What\u0027s that?",
+      "revId": "7fbee02db678b8270c3ac881ce0039a2f21ef9be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//+/E\u003d",
+        "filename": "bluedroid.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-03-21T14:24:10Z",
+      "side": 1,
+      "message": "In a function that queries the BT state you bring the device down? Why?",
+      "revId": "7fbee02db678b8270c3ac881ce0039a2f21ef9be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//+/I\u003d",
+        "filename": "bluedroid.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 509,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-03-21T14:24:10Z",
+      "side": 1,
+      "message": "You need to check whether hci_sock is \u003c 0 here.",
+      "revId": "7fbee02db678b8270c3ac881ce0039a2f21ef9be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
