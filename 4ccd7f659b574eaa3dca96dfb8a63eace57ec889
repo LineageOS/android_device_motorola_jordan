@@ -16,6 +16,24 @@
       "revId": "4ccd7f659b574eaa3dca96dfb8a63eace57ec889",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//+z8\u003d",
+        "filename": "libsensors/nusensors.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-03-22T01:54:12Z",
+      "side": 0,
+      "message": "That\u0027s why I do it for Gingerbread ;)\nBut seriously, IMHO code maintenance is more about shuffling around patches and not source files. Also, there needs to be a difference at some point anyway (be it source files or header), so from my point of view, this define doesn\u0027t help much.",
+      "parentUuid": "AAAARX//+0Q\u003d",
+      "revId": "4ccd7f659b574eaa3dca96dfb8a63eace57ec889",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
