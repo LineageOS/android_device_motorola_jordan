@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARX//+0Q\u003d",
+        "filename": "libsensors/nusensors.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-03-22T01:27:48Z",
+      "side": 0,
+      "message": "please let this one... ICS remove SENSOR_TYPE_TEMPERATURE\n\ni dont want to maintain 2 different code",
+      "revId": "4ccd7f659b574eaa3dca96dfb8a63eace57ec889",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
